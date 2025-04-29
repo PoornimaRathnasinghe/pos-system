@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pos-system
+    env: node
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: npm start
+    port: 3000
